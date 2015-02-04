@@ -14,10 +14,11 @@ german = u"ÄäÖöÜüß"
 french = u"ÀàÂâÆæÇçÉéÈèÊêËëÎîÏïÔôŒœÙùÛûÜüŸÿ"
 turkish = u"ĞğŞşıſ"
 greek = u"ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
+polish = u"ąćęłóśźż"
 
-default = ascii+xsymbols+german+french
+default = ascii+xsymbols+german+french+polish
 
-european = default+turkish+greek
+european = default+turkish+greek+polish
 
 # List of regular expressions for normalizing Unicode text.
 # Cleans up common homographs. This is mostly used for
