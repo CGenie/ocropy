@@ -43,7 +43,7 @@ parser.add_argument("-o","--output",default=None,
                     help="LSTM model file")
 parser.add_argument("-F","--savefreq",type=int,default=1000,
                     help="LSTM save frequency")
-parser.add_argument("--strip",action="store_false",
+parser.add_argument("--strip",action="store_true",
                     help="strip the model before saving")
 parser.add_argument("-N","--ntrain",type=int,default=1000000,
                     help="# lines to train before stopping")
