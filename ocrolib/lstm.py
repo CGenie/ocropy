@@ -373,7 +373,10 @@ class MLP(Network):
 
 def ffunc(x):
     "Nonlinearity used for gates."
-    return 1.0/(1.0+exp(-x))
+    try:
+        return 1.0/(1.0+exp(-x))
+    except FloatingPointError:
+        return sys.float_info.min
 def fprime(x,y=None):
     "Derivative of nonlinearity used for gates."
     if y is None: y = sigmoid(x)
