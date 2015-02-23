@@ -14,7 +14,7 @@ german = u"ÄäÖöÜüß"
 french = u"ÀàÂâÆæÇçÉéÈèÊêËëÎîÏïÔôŒœÙùÛûÜüŸÿ"
 turkish = u"ĞğŞşıſ"
 greek = u"ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
-polish = u"ąćęłóśźż"
+polish = u"ĄąĆćĘęŁłŃńÓóŚśŹźŻż"
 
 default = ascii+xsymbols+german+french+polish
 
